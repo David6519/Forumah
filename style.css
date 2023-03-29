@@ -1,0 +1,94 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: "Courier New", Courier, monospace;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #007bff;
+    color: #ffffff; /* Main Header */
+    padding: 15px;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+  }
+  
+  nav li {
+    margin-left: 20px;
+  }
+  
+
+  
+  /* This is the examples */
+  nav a {
+    color: #ffffff; 
+    text-decoration: none;
+  }
+  
+
+
+  nav a:hover {
+    text-decoration: underline;
+  }
+  
+  .banner {
+    background-image: url("banner.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #313658;
+    padding: 20px;
+  }
+  
+  .banner h2 {
+    font-size: 40px;
+    margin-bottom: 10px;
+  }
+  
+  .banner p {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .banner button {
+    background-color: #007bff;
+    color: #007bff;
+    padding: 10px 20px;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .banner button:hover {
+    background-color: #007bff;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  h1 {
+    font-family: 'Metal Mania', cursive;
+    font-size: 32px;
+    margin: 0;
+  }
+  
+  

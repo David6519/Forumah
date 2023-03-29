@@ -1,0 +1,84 @@
+/* reset some default styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 1;
+  }
+  
+  /* set some default styles for the page */
+  html {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 3.4;
+    background-color: #f2f2f2;
+  }
+  
+  /* center the container */
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+  /* style the login form */
+  form {
+    width: 400px;
+    padding: 40px;
+    background-color: #dadada;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    border: 1px solid #000000;
+  }
+  
+  /* style the form header */
+  h1 {
+    margin-bottom: 40px;
+    font-size: 23px;
+    font-weight: 700;
+    text-align: left;
+  }
+  
+  /* style the form groups */
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 18px;
+    font-weight: 500;
+  }
+  
+  .form-group input {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 10px;
+    border: 1px solid #000000;
+  }
+  
+  /* style the submit button */
+  button[type="submit"] {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 50;
+    text-align: center;
+    border: black;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    border: 2px solid #000000;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #405b78;
+  }
+  
+  
